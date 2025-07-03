@@ -17,6 +17,12 @@ matplotlib.use('Qt5Agg')
 
 from gui import Ui_Form
 
+# Windows'ta görev çubuğu ikonunu düzgün göstermek için (sadece Windows'ta çalışır)
+if sys.platform == "win32":
+    import ctypes
+    myappid = 'devrimtuncer.muhasebe.analizi.v1'  # Uygulamanız için benzersiz bir kimlik
+    ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+
 
 class MainWindow(QtWidgets.QWidget):
     def __init__(self):

@@ -1,4 +1,4 @@
-# **Bank Report Analysis**
+# **Data Analysis**
 
 This project is a bank report analysis application developed for the company where I interned. The application analyzes bank transaction reports from Excel files to calculate and report daily total transaction amounts.
 
@@ -32,7 +32,7 @@ If you have any questions or feedback, please contact me:
 
 This project is licensed under the [MIT License](http://docs.google.com/LICENSE).
 
-# **Banka Rapor Analizi**
+# **Data Analizi**
 
 Bu proje, staj yaptığım şirket için geliştirilmiş bir banka raporu analiz uygulamasıdır. Uygulama, Excel dosyalarındaki banka işlem raporlarını analiz ederek günlük toplam işlem tutarlarını hesaplar ve raporlar.
 
